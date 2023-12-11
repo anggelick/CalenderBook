@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.8.34316.72
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp", "ConsoleApp\ConsoleApp.csproj", "{EEE49298-8B90-4C14-A8D3-DD94E7CBA71C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleApp", "ConsoleApp\ConsoleApp.csproj", "{EEE49298-8B90-4C14-A8D3-DD94E7CBA71C}"
 EndProject
-Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "WebApi", "WebApi\WebApi.fsproj", "{DB3118E5-DAA4-4BCC-B1FD-BF6A5B794AE6}"
+Project("{6EC3EE1D-3C4E-46DD-8F32-0CC8E7565705}") = "WebApi", "WebApi\WebApi.fsproj", "{DB3118E5-DAA4-4BCC-B1FD-BF6A5B794AE6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp.Tests", "ConsoleApp.Tests\ConsoleApp.Tests.csproj", "{FB9DC76B-2004-4AFE-8E22-C35C33542F3B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{DB3118E5-DAA4-4BCC-B1FD-BF6A5B794AE6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DB3118E5-DAA4-4BCC-B1FD-BF6A5B794AE6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DB3118E5-DAA4-4BCC-B1FD-BF6A5B794AE6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FB9DC76B-2004-4AFE-8E22-C35C33542F3B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FB9DC76B-2004-4AFE-8E22-C35C33542F3B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FB9DC76B-2004-4AFE-8E22-C35C33542F3B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FB9DC76B-2004-4AFE-8E22-C35C33542F3B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
